@@ -14,7 +14,8 @@ https://github.com/RichardMorris/SACDungeon
 
 * Step 3. In the top right corner, press the Fork button to create a copy of the project in your own GitHub account.
 
-* This will make your own copy of the code.
+  * This will make your own copy of the code.
+  * You will need to get approve replit access from github.
 
 * Step 4. In Replit go to "new repl"
  then choose the "Import from GitHub" and paste in the name of your cloned repository. Something like
@@ -31,6 +32,21 @@ https://github.com/RichardMorris/SACDungeon
 
   * Select the Version control tab on the left hand side (looks like a Y on its side).
   * Fill in the "What did you change box"
+  * Press the "Commit and Push button"
+
+* Step 7. Create a pull request in github
+  * Click the *Pull Request* or *Contribute* button
+  * Select *create pull request*
+  * On new screen select *create pull request* again.
+  * On new form fill in the title and description (just add name will do)
+  * Click the *create pull request* the request will be submitted to the main repository for me to review.
+
+Once done you are free to change anything. Only sensible changes will be accepted.
+
+
+   
+
+
 
 
 
