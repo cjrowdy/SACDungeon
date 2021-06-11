@@ -1,10 +1,97 @@
 <html>
   <head>
     <script>
+      var current_room="Entrance";
+
+      // Display message in output
+      // Do not edit
+      function display(str) {
+        document.getElementById("MainOutput").value = str;
+      }
+
+    function subForm(ev) {
+    //ev.preventDefaults();
+      //alert("submit");
+      main_input();
+    return false; // return false to prevent submission
+    }
+      // Read input returns what has been typed in
+      // Do not edit
+      function getInput() {
+        var input_val = document.getElementById("Input").value;
+        return input_val;
+      }
+
+
+      function main_input() {
+        
+        switch(current_room) {
+          case "Entrance":
+            entrance();
+            break;
+          case "Exit":
+            exit();
+            break;
+          // Add other rooms here
+
+
+          // Default incase the room was wrong
+          default:
+            display("You are in limbo and return to the entrance");
+            current_room = "Entrance";
+            break;
+        }
+      }
+
+
+      // Add code for each rooms
+
+      function entrance() {
+        var text="You are in the enterance\n";
+        val = getInput();
+        if(val==1) {
+          text += "You go north\n";
+          // Move to the exit
+          current_room = "Exit";
+        } else {
+          text += "You stand still\n";
+        }
+        display(text);
+      }
+
+      function exit() {
+        var text="You are in the exit\n";
+        val = getInput();
+        if(val==1) {
+          text += "You go north\n";
+          // Move to entrance
+          current_room = "Entrance";
+        } else {
+          text += "You stand still\n";
+        }
+        display(text);
+      }
+
+
     </script>
   </head>
   <body>
     <h1>St Austell College Dungeon</h1>
+
+<form id="myform" method='POST'  enctype='multipart/form-data' onSubmit="return subForm()" >
+
+    <textarea rows=10 cols=40 id="MainOutput"readonly >
+    Menu: 
+    1. Go north
+    2. Go east 
+    3. Go south 
+    4. Go south
+    </textarea>
+    <br/>
+    <input type="text" id="Input" />
+    <button >Go</button>
+
+</form>
   </body>
 </html>  
    

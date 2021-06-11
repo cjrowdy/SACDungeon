@@ -33,6 +33,7 @@ https://github.com/RichardMorris/SACDungeon
   * Select the Version control tab on the left hand side (looks like a Y on its side).
   * Fill in the "What did you change box"
   * Press the "Commit and Push button"
+  * It will take upto a minute for the commit to be accepted.
 
 * Step 7. Create a pull request in github
   * Click the *Pull Request* or *Contribute* button
