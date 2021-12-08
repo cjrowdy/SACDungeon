@@ -27,7 +27,7 @@ https://github.com/RichardMorris/SACDungeon
 
 * Step 5. *Commit and Push* 
 
-TODO 
+-- TODO 
   * Select the Version control tab on the left hand side (looks like a Y on its side).
   * Fill in the "What did you change box"
   * Press the "Commit and Push button"
