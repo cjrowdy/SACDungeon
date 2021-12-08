@@ -25,9 +25,8 @@ https://github.com/RichardMorris/SACDungeon
 * Step 5. Add your name to the list below
 
 1. Richard Morris - lead
-2. James Lias
 2. Paul Smith
-3. Olly E - Dev
+3. Olly E - Dev and all round lovely chap
 4. Jamie Lias
 5. Courtney-Jade Rowden
 
