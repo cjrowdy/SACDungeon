@@ -27,7 +27,9 @@ https://github.com/RichardMorris/SACDungeon
 1. Richard Morris - lead
 2. James Lias
 2. Paul Smith
-3.
+3. Olly E - Dev
+4. Jamie Lias
+5. Courtney-Jade Rowden
 
 * Step 6. *Commit and Push* from Replit back to your GitHub account.
 
