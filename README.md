@@ -25,6 +25,7 @@ https://github.com/RichardMorris/SACDungeon
 * Step 5. Add your name to the list below
 
 1. Richard Morris - lead
+2. James Lias
 2. Paul Smith
 3.
 
