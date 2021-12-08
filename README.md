@@ -17,12 +17,7 @@ https://github.com/RichardMorris/SACDungeon
   * This will make your own copy of the code.
   * You will need to get approve replit access from github.
 
-* Step 4. In Replit go to "new repl"
- then choose the "Import from GitHub" and paste in the name of your cloned repository. Something like
- https://github.com/RichardMorris/SACDungeon
- but with your own username.
-
-* Step 5. Add your name to the list below
+* Step 4. Add your name to the list below, use the pencil icon in the top right to do it
 
 1. Richard Morris - lead
 2. Paul Smith
@@ -30,14 +25,15 @@ https://github.com/RichardMorris/SACDungeon
 4. Jamie Lias
 5. Courtney-Jade Rowden
 
-* Step 6. *Commit and Push* from Replit back to your GitHub account.
+* Step 5. *Commit and Push* 
 
+TODO 
   * Select the Version control tab on the left hand side (looks like a Y on its side).
   * Fill in the "What did you change box"
   * Press the "Commit and Push button"
   * It will take upto a minute for the commit to be accepted.
 
-* Step 7. Create a pull request in github
+* Step 6. Create a pull request in github
   * Click the *Pull Request* or *Contribute* button
   * Select *create pull request*
   * On new screen select *create pull request* again.
